@@ -6,8 +6,8 @@ public class Boxing {
 		int pInt = 10;
 		Integer wInt= pInt; // auto boxing
 		int p2=wInt; // auto unboxing
-		System.out.println(wInt);
-		System.out.println(pInt);
+		System.out.println("Autoboxed : " +wInt);
+		System.out.println("Auto Unboxed : " +pInt);
 		
 		
 		
