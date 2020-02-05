@@ -1,19 +1,23 @@
 package comm.example;
 
-public class Task {
+public class Task1 {
 	
 	private String taskId;
 	private String taskName;
 	private String createBy;
 	private boolean isComplete;
 	
-	public Task(String string, String string2, String string3, boolean b)
+	public Task1(String string, String string2, String string3, boolean b)
 	{
 		this.taskId=string;
 		this.taskName= string2;
 		this.createBy=string3;
 		this.isComplete=b;
 		
+	}
+
+	public void Task(String string, String string2, String string3, boolean b) {
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -35,12 +39,12 @@ public class Task {
 
 	@Override
 	public boolean equals(Object obj) {
-		Task thetask = null;
+		Task1 thetask = null;
 		boolean isEquals = false;
 		
-		if(obj instanceof Task)
+		if(obj instanceof Task1)
 		{
-			thetask = (Task) obj;
+			thetask = (Task1) obj;
 		}
 		if((this.getTaskName()== thetask.getTaskName())&&(this.getCreateBy()==thetask.getCreateBy()))
 		{

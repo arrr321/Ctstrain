@@ -12,7 +12,7 @@ public class InternationalCd extends CD{
 	 public InternationalCd(int cdid , String cdName ,String genre ,double price ,  String lang ) {
 		 
 		 
-		 super(cdid , cdName , genre , price );
+		 super( );
 		 this.lang=lang;
 		 
 	 }

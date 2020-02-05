@@ -4,7 +4,7 @@ public class Flyer {
 
 	private boolean Canfly;
 	
-	public Flyer ( Canfly boolean )
+	public Flyer ( boolean Canfly )
 	{
 		
 		

@@ -1,6 +1,6 @@
 package comm.ex;
 
-import java.time.LocalDate;
+
 
 public class hello {
 
@@ -8,7 +8,7 @@ public class hello {
 		private int month;
 		public void setmonth(int month){
 			this.month=month;
-			private LocalDate;
+			
 			
 			}
 		public void days()

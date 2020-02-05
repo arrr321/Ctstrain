@@ -18,7 +18,7 @@ public class Todo {
 	private LocalDate date;
 	private boolean isCompleted;
 	
-	private static task tk;
+/*	private static task tk;
 	private static todo td;
 	
 	static 
@@ -26,10 +26,9 @@ public class Todo {
 		tk = new Task();
 		td = new Todo();
 		
-	}
-static 
+	} 
 	
-	
+	*/
 	
 	
 

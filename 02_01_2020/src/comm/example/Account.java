@@ -24,7 +24,7 @@ public class Account {
 	
 public static void Setvalue(int Accountno , String Acc_name , int Amount , LocalDate date) {
 	
-		acc.Setvalue(10001,  10000,7888878, LocalDate.now());
+		
 	
 	
 }
